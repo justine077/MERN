@@ -1,0 +1,1 @@
+//cretate prodcut detail paage

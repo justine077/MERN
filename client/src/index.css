@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #E4E4E7;
+ 
+}
+
+
+
+         /* dots */
+         .slick-dots li button:hover:before,
+         .slick-dots li button:focus:before {
+           opacity: 1;
+           color: #bf0404;
+         }
+
+         .slick-dots li button:before {
+           font-family: "Font Awesome 6 Free";
+           font-size: 15px !important;
+           line-height: 42px;
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 20px;
+           height: 20px;
+           content: '\f192';
+           text-align: center;
+           opacity: .25;
+           color: #a1a1a1 !important;
+    
+           -webkit-font-smoothing: antialiased;
+           -moz-osx-font-smoothing: grayscale;
+         }
+    
+         .slick-dots li.slick-active button:before {
+           opacity: .75;
+           color: #bf0404 !important;
+         }
+
+
+        .slick-dots {
+          position: absolute;
+          bottom: -5rem !important;
+          display: block;
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          text-align: center;
+        }
